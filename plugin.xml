@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="ca.dpogue.webp"
+    version="1.0.0">
+
+    <name>WebP</name>
+    <description>WebP support for iOS UIWebView</description>
+    <keywords>cordova,ios,webp</keywords>
+    <license>Mozilla Public License 2.0</license>
+    <repo>https://github.com/dpogue/cordova-plugin-webp.git</repo>
+
+    <engines>
+        <engine name="cordova-ios" version=">= 3.0.0" />
+    </engines>
+
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="WebP">
+                <param name="ios-package" value="WebPPlugin" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/ios/WebPPlugin.m" />
+        <header-file src="src/ios/WebPPlugin.h" />
+
+        <source-file src="src/ios/WebPProtocol.m" />
+        <header-file src="src/ios/WebPProtocol.h" />
+
+        <source-file src="src/ios/STWebPStreamingDecoder.m" />
+        <header-file src="src/ios/STWebPStreamingDecoder.h" />
+
+        <framework src="CoreGraphics.framework" />
+        <framework src="src/ios/WebP.framework" custom="true" />
+    </platform>
+</plugin>
+
