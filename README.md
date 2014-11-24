@@ -19,6 +19,7 @@ cordova plugin add ca.dpogue.webp
 Version History
 ---------------
 
+* **v1.0.1** - Updated WebP.framework to support arm64
 * **v1.0.0** - Initial version, based on libwebp 0.4.2
 
 
