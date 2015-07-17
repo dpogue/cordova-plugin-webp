@@ -12,13 +12,14 @@ Installing
 With the Cordova command-line tools:
 
 ```
-cordova plugin add ca.dpogue.webp
+cordova plugin add cordova-plugin-webp
 ```
 
 
 Version History
 ---------------
 
+* **v1.1.0** - Updated to WebP 0.4.3, published to npm
 * **v1.0.1** - Updated WebP.framework to support arm64
 * **v1.0.0** - Initial version, based on libwebp 0.4.2
 
