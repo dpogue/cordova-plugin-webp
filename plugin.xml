@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="ca.dpogue.webp"
-    version="1.1.0">
+    version="1.2.0">
 
     <name>WebP</name>
     <description>WebP support for iOS UIWebView</description>
@@ -34,4 +34,3 @@
         <framework src="src/ios/WebP.framework" custom="true" />
     </platform>
 </plugin>
-
