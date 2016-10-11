@@ -1,5 +1,5 @@
-ca.dpogue.webp
-==============
+cordova-plugin-webp
+===================
 
 Cordova Plugin to automatically add WebP support for iOS web views. Works for
 images referenced in HTML, CSS, or JS, including ones packaged with the app and
@@ -18,6 +18,7 @@ cordova plugin add cordova-plugin-webp
 Version History
 ---------------
 
+* **v2.0.0** - Updated to WebP 0.5.1, renamed to cordova-plugin-webp
 * **v1.2.0** - Updated to WebP 0.4.4
 * **v1.1.0** - Updated to WebP 0.4.3, published to npm
 * **v1.0.1** - Updated WebP.framework to support arm64

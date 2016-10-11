@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-webp",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Cordova Plugin to automatically add WebP support for iOS web views.",
   "cordova": {
     "id": "cordova-plugin-webp",
