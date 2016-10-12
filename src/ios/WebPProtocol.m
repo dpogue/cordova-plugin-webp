@@ -25,9 +25,10 @@
         return NO;
     }
 
-    NSString* const requestFiletype = [[[request URL] pathExtension] lowercaseString];
+    NSURL* url = [request URL];
+    NSString* const requestFiletype = [[url pathExtension] lowercaseString];
 
-    return [@"webp" isEqualToString:requestFiletype];
+    return [@"webp" isEqualToString:requestFiletype] || [[url absoluteString] hasPrefix:@"data:image/webp;"];
 }
 
 + (NSURLRequest *)canonicalRequestForRequest:(NSURLRequest *)request {
