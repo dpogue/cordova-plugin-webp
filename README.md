@@ -18,6 +18,7 @@ cordova plugin add cordova-plugin-webp
 Version History
 ---------------
 
+* **v2.2.0** - Add support for `?cdvwebp=true` to force URL intercepting
 * **v2.1.0** - Add support for data URIs (<= iOS9 only)
 * **v2.0.0** - Updated to WebP 0.5.1, renamed to cordova-plugin-webp
 * **v1.2.0** - Updated to WebP 0.4.4
