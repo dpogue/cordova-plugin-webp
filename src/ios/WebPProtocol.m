@@ -28,7 +28,7 @@
     NSURL* url = [request URL];
     NSString* const requestFiletype = [[url pathExtension] lowercaseString];
 
-    return [@"webp" isEqualToString:requestFiletype] || [[url absoluteString] hasPrefix:@"data:image/webp;"];
+    return [@"webp" isEqualToString:requestFiletype] || [[url absoluteString] hasPrefix:@"data:image/webp;"] || [[url query] containsString:@"cdvwebp=true"];
 }
 
 + (NSURLRequest *)canonicalRequestForRequest:(NSURLRequest *)request {
